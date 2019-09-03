@@ -1,1 +1,16 @@
-more samples on https://github.com/openjfx/samples
+more samples on UPSTREAM https://github.com/openjfx/samples
+
+Накатывание изменений с апстрима на мой форк на Github
+
+https://github.com/akimdi/samples
+
+git clone --verbose git@github.com:akimdi/samples.git
+git status
+git remote -v
+git remote add upstream git@github.com:openjfx/samples.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git status
+git push origin master
+git status
